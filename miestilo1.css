@@ -454,6 +454,12 @@ footer {
       grid-template-columns: auto auto auto;
       align-items: center;
     }
+
+    .contenido.texto-desc {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .my-form select,
@@ -588,7 +594,7 @@ footer {
     transform: rotate(45deg);
   }
    
- /* @media screen and (min-width: 541px) {
+  @media screen and (min-width: 541px) {
     .my-form input[type="checkbox"] + label::before {
       top: 50%;
       transform: translateY(-50%);
@@ -597,7 +603,7 @@ footer {
     .my-form input[type="checkbox"]:checked + label::after {
       top: 3px;
     }
-  }*/
+  }
   /*.my-form *:disabled {
     cursor: default;
     filter: blur(2px);
